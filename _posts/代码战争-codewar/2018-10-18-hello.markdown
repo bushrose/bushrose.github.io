@@ -1,0 +1,18 @@
+---
+layout: post
+title: hello
+date: 2018-10-18 13:05 +0800
+author: teisyogun
+tags: [codewar]
+codewar: true
+img: post-4.jpg
+description: ruby
+---
+
+- code
+```
+def fun(a, b):
+    return a-b
+```
+------
+## hello ruby
