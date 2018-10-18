@@ -89,10 +89,9 @@ links:
   - name:         About
     url:          /about
     external:     false
-  - name:         tags
+  - name:         Tags
     url:          /tags
     external:     false
-
 #添加分类步骤：
 #1：在_config.yml links1及blog_中添加对应内容
 #2：在_includes里面headr.html中添加对应内容
@@ -148,6 +147,10 @@ links1:
     url:          /blog/other
     type:         other
     external:     false
+  - name:         代码战争
+    url:          /blog/codewar
+    type:         codewar
+    external:     false
 blog_1:    recent
 blog_2:    essays
 blog_3:    jekyll
@@ -160,7 +163,7 @@ blog_9:    flutter
 blog_10:   ffmpeg
 blog_11:   opengl
 blog_12:   hacker
-blog_13:
+blog_13:   codewar
 blog_14:
 blog_15:
 blog_16:
