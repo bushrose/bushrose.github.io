@@ -170,3 +170,5 @@ blog_16:
 
 
 #permalink: /:year/:month/:day/:title.html
+
+theme: jekyll-theme-leap-day
