@@ -3,19 +3,19 @@
 <div class="comment-wrapper">
 {% if site.gitment.enable %}
 <!-- Link Gitalk 的支持文件  -->
-<div id="container"></div>
+<div id="gitmentcontainer"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
   owner: 'bushrose',
-  repo: 'blog_comments',
+  repo: 'blog_comments1',
   oauth: {
     client_id: '890146dd66ab17c9a5cc',
     client_secret: 'c02583973a403aefc1dbb793f37e92dd840a4dd4',
   },
 })
-gitment.render('container')
+gitment.render('gitmentcontainer')
 </script>
 </div>
 </section>
