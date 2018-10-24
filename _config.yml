@@ -51,7 +51,7 @@ gitalk:
   repo: blog_comments    #仓库名称
   owner: bushrose    #github用户名
   admin: [bushrose]
-  distractionFreeMode: true
+  distractionFreeMode: false
 
 # Declare license on posts
 post_copyright:
