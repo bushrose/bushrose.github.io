@@ -45,13 +45,16 @@ intensedebate_identifier: 1ce8d80a5f6d373a46f4ceaf3dff8859
 
 # Gitalk
 gitalk: 
-  enable: true    #用来做启用判断可以不用
+  enable: false    #用来做启用判断可以不用
   clientID: '27c38d4480505553d62d'   #上面生成的往这里怼
   clientSecret: '33be549572272c79d09d973bb56907d29d9c9dc1'   #同上
   repo: blog_comments    #仓库名称
   owner: bushrose    #github用户名
   admin: [bushrose]
   distractionFreeMode: false
+
+gitment:
+  enable: true
 
 # Declare license on posts
 post_copyright:
